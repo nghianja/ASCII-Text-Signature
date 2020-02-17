@@ -1,7 +1,16 @@
 package signature
 
+import java.util.Scanner
+
 fun main() {
-    println(" _____________")
-    println("| Hyper Skill |")
-    println(" ¯¯¯¯¯¯¯¯¯¯¯¯¯")
+    val scanner = Scanner(System.`in`)
+    val name = scanner.nextLine()
+    for (i in 0 until name.length + 4) {
+        print("*")
+    }
+    println()
+    println("* $name *")
+    for (i in 0 until name.length + 4) {
+        print("*")
+    }
 }
