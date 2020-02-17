@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Task1Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-17T15:48:15" hostname="Principals-MBP" time="0.132">
+  <properties/>
+  <testcase name="start" classname="Task1Test" time="0.132"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+ _____________
+| Hyper Skill |
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
