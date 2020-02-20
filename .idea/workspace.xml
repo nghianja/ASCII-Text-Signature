@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4476251b-40f9-4d62-975b-8c0c2980a284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ASCII Text Signature/task/test/Authors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ASCII Text Signature/task/test/Task3Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ASCII Text Signature/task/test/FontsHardcoded.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,11 +17,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/ASCII New Roman/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/ASCII New Roman/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/Make it notable/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/Make it notable/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/Star quality/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/Star quality/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/main/signature/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/main/signature/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/test/InputClue.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/test/InputClue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/test/META-INF/ASCII_Text_Signature-task.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/test/META-INF/ASCII_Text_Signature-task.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/test/Task2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/test/TestCaseHelpersKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/classes/kotlin/test/TestCaseHelpersKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
@@ -54,15 +54,19 @@
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/inline-functions.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
@@ -75,6 +79,7 @@
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
@@ -85,6 +90,7 @@
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
@@ -99,6 +105,7 @@
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
@@ -114,15 +121,17 @@
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/reports/tests/test/classes/Task2Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/reports/tests/test/classes/Task3Test.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/test-results/test/TEST-Task2Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/test-results/test/TEST-Task3Test.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/src/signature/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/src/signature/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/test/Task2Test.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/test/Authors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/test/Authors.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/test/Task3Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/test/Task4Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASCII Text Signature/task/test/TestCaseHelpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ASCII Text Signature/task/test/TestCaseHelpers.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +165,26 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration name="signature.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="ASCII_Text_Signature-task_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="signature.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.signature.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -167,7 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581950039581</updated>
       <workItem from="1581950051657" duration="2438000" />
-      <workItem from="1581955053420" duration="16265000" />
+      <workItem from="1581955053420" duration="35940000" />
     </task>
     <servers />
   </component>
@@ -175,6 +204,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1366" height="224" key="GridCell.Tab.0.bottom" timestamp="1582220386397">
+      <screen x="60" y="23" width="1380" height="877" />
+    </state>
+    <state width="1366" height="224" key="GridCell.Tab.0.bottom/54.23.1386.877/1440.23.1920.1057@54.23.1386.877" timestamp="1582165720471" />
+    <state width="1366" height="224" key="GridCell.Tab.0.bottom/60.23.1380.877/1440.23.1920.1057@60.23.1380.877" timestamp="1582220386397" />
+    <state width="1366" height="224" key="GridCell.Tab.0.center" timestamp="1582220386395">
+      <screen x="60" y="23" width="1380" height="877" />
+    </state>
+    <state width="1366" height="224" key="GridCell.Tab.0.center/54.23.1386.877/1440.23.1920.1057@54.23.1386.877" timestamp="1582165720469" />
+    <state width="1366" height="224" key="GridCell.Tab.0.center/60.23.1380.877/1440.23.1920.1057@60.23.1380.877" timestamp="1582220386395" />
+    <state width="1366" height="224" key="GridCell.Tab.0.left" timestamp="1582220386394">
+      <screen x="60" y="23" width="1380" height="877" />
+    </state>
+    <state width="1366" height="224" key="GridCell.Tab.0.left/54.23.1386.877/1440.23.1920.1057@54.23.1386.877" timestamp="1582165720469" />
+    <state width="1366" height="224" key="GridCell.Tab.0.left/60.23.1380.877/1440.23.1920.1057@60.23.1380.877" timestamp="1582220386394" />
+    <state width="1366" height="224" key="GridCell.Tab.0.right" timestamp="1582220386396">
+      <screen x="60" y="23" width="1380" height="877" />
+    </state>
+    <state width="1366" height="224" key="GridCell.Tab.0.right/54.23.1386.877/1440.23.1920.1057@54.23.1386.877" timestamp="1582165720470" />
+    <state width="1366" height="224" key="GridCell.Tab.0.right/60.23.1380.877/1440.23.1920.1057@60.23.1380.877" timestamp="1582220386396" />
     <state x="417" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1581955053638">
       <screen x="54" y="23" width="1386" height="877" />
     </state>
